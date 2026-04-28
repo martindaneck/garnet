@@ -21,9 +21,10 @@ fn main() {
     let mut light_manager = LightManager::new();
 
     // environment map do
-    let mut environment_map_fireplace = EnvironmentMap::new("assets/ibl/fireplace", 7);
+    let mut environment_map_space2 = EnvironmentMap::new("assets/ibl/space2", 7);
     let mut environment_map_sky = EnvironmentMap::new("assets/ibl/sky", 7);
     let mut environment_map_meadow = EnvironmentMap::new("assets/ibl/meadow", 7);
+    let mut environment_map_space1 = EnvironmentMap::new("assets/ibl/space1", 7); 
 
     // shaders
     let pregeometry_shader = Shader::from_files(
@@ -78,11 +79,13 @@ fn main() {
 
         // update environment map
         let environment_map = if imgui_settings.get_settings().2 == 0 {
-            &mut environment_map_fireplace
+            &mut environment_map_space2
         } else if imgui_settings.get_settings().2 == 1 {
             &mut environment_map_sky
-        } else {
+        } else if imgui_settings.get_settings().2 == 2 {
             &mut environment_map_meadow
+        } else {
+            &mut environment_map_space1
         };
 
         // update lights

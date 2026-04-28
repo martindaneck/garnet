@@ -107,6 +107,7 @@ impl ImguiSettings {
                 ui.radio_button("Environment: Fireplace", &mut self.settings.environment, 0);
                 ui.radio_button("Environment: Sky", &mut self.settings.environment, 1);
                 ui.radio_button("Environment: Meadow", &mut self.settings.environment, 2);
+                ui.radio_button("Environment: Space", &mut self.settings.environment, 3);
                 ui.separator();
                 ui.text("Render Mode (Debug)");
                 ui.radio_button("Render Mode: Default", &mut self.settings.rendermode, 0);
