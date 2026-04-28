@@ -1,0 +1,11 @@
+Model Information:
+* title:	Among Us Astronaut - Clay
+* source:	https://sketchfab.com/3d-models/among-us-astronaut-clay-20b591de51eb4fc3a4c5a4d40c6011d5
+* author:	MatMADNESS (https://sketchfab.com/matmadnessart)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Among Us Astronaut - Clay" (https://sketchfab.com/3d-models/among-us-astronaut-clay-20b591de51eb4fc3a4c5a4d40c6011d5) by MatMADNESS (https://sketchfab.com/matmadnessart) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
